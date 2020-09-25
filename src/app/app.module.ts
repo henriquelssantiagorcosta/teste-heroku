@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TesteDeRotaComponent } from './teste-de-rota/teste-de-rota.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TesteDeRotaComponent
   ],
   imports: [
     BrowserModule,
